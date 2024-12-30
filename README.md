@@ -2,6 +2,12 @@
 
 OpenTelemetry NestJS is a module that provides instrumentation for NestJS applications.
 
+## Installation
+
+```bash
+npm install @e3m-software/nest-opentelemetry
+```
+
 ## Usage
 
 ```typescript

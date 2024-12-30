@@ -1,11 +1,20 @@
 {
-  "name": "nest-opentelemetry",
+  "name": "@e3m-software/nest-opentelemetry",
   "version": "1.0.0",
   "description": "NestJS Opentelemetry Wrapper",
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
   },
   "author": "Supan Adit Pratama <adit@mail.eigen.co.id>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e3m-software/nest-opentelemetry"
+  },
+  "homepage": "https://github.com/e3m-software/nest-opentelemetry",
+  "bugs": "https://github.com/e3m-software/nest-opentelemetry/issues",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "build:libs": "tsc -p tsconfig.build.json",
   "dependencies": {
