@@ -1,4 +1,4 @@
-# Opentelemtry NestJS
+# Opentelemetry NestJS
 
 OpenTelemetry NestJS is a module that provides instrumentation for NestJS applications.
 
@@ -12,6 +12,7 @@ OpenTelemetry NestJS is a module that provides instrumentation for NestJS applic
   providers: [],
 })
 export class AppModule {}
+
 // Optional can be skipped ( But for controller you need to use CustomSpanRouter )
 @Controller("v1/auth/admin")
 export class AuthAdminController {
@@ -23,6 +24,7 @@ export class AuthAdminController {
     // Your Code
   }
 }
+
 // Outside of The Controller
 @Injectable()
 export class AuthOrchestrator {
@@ -31,6 +33,7 @@ export class AuthOrchestrator {
     // Your Code
   }
 }
+
 // What about using inside function....
 // Simply use this CustomSpanWrapper()
 @Injectable()
