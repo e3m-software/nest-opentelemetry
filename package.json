@@ -1,6 +1,6 @@
 {
   "name": "@e3m-software/nest-opentelemetry",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "NestJS Opentelemetry Wrapper",
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
